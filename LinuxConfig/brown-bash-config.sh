@@ -1,5 +1,8 @@
+#! /usr/bin/bash
+
 # Brown's special settings of bash.
 # This file should be under the /etc/profile.d for CentOS.
+# This file is not intended to be run directly by user.
 
 # Modify command promote format
 if [[ -n $PS1 ]]; then 
