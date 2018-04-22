@@ -1,4 +1,6 @@
 """ Brown's settings
+""" This file is intended to be renamed into .vimrc and placed under user's home directory.
+ 
 " Window visualization
 set number
 set lines=52
