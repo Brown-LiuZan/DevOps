@@ -1,0 +1,11 @@
+>>> Install git, clone my github repositories and setup git environment.
+
+>>> Configure bash with my github devops template files or tools.
+
+>>> Configure vim with my github devops template files or tools.
+
+>>> Install cscope and ctags. Generate project files used by vim.
+
+>>> Install gcc versions.
+
+>>> Configure SMB service and directory.
