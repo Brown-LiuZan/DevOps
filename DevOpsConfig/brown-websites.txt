@@ -1,0 +1,14 @@
+Programmer's websites:
+    Open source image sites:
+        http://mirrors.163.com/
+        https://mirrors.tuna.tsinghua.edu.cn/
+        https://opsx.alibaba.com/
+
+    Programming languages:
+        http://en.cppreference.com/w/
+        http://www.cplusplus.com/
+        https://www.python.org/
+        https://www.tutorialspoint.com/index.htm
+
+    Tools:
+        https://gcc.gnu.org/
