@@ -1,0 +1,14 @@
+""" Brown's settings
+" Window visualization
+set number
+set lines=52
+set textwidth=120
+set hlsearch
+
+" Indent
+set tabstop=4
+set expandtab
+set autoindent
+set smartindent
+set shiftwidth=4
+set paste " Stop indenting when pasting
