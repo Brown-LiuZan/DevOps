@@ -1,0 +1,17 @@
+=> sudo yum -y install python 
+
+=> sudo yum -y install epel-release #Extra packages of enterprise Linux for pip
+
+=> sudo yum repolist #Update package list to check EPEL
+
+=> sudo yum -y install python-pip #For python2.7. After python3.x, pip will be automatically installed as pip3.x.
+=> sudo pip install --upgrade pip #Update pip for python2.7
+=> sudo pip3 install --upgrade pip #Update pip for python3.x
+#For pip3 to work well without SSL issue, before build and install python3.x, we should make sure to install openssl or
+#libssl.
+
+=> sudo yum -y install python-devel #For Python.h 
+=> sudo yum -y install python36-devel #For Python.h
+
+#To make sure that python3 interactive interpretor works well without messed up history, to install readline before
+#build python3.x.

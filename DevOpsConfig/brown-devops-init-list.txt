@@ -9,3 +9,5 @@
 >>> Install gcc versions.
 
 >>> Configure SMB service and directory.
+
+>>> Install readline and openssl/libssl and then install latest python.
