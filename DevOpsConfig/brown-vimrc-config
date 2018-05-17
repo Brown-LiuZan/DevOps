@@ -8,6 +8,7 @@ set textwidth=120
 set colorcolumn=121
 set hlsearch
 set ruler " show (line, column) 
+syntax on
 
 " Indent
 set tabstop=4
