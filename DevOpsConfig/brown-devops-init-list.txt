@@ -10,4 +10,4 @@
 
 >>> Configure SMB service and directory.
 
->>> Install readline and openssl/libssl and then install latest python.
+>>> Install readline and openssl/libssl developing libraries and then install latest python.
