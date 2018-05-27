@@ -1,4 +1,6 @@
 #Brown@copyright
+#Version: 1.1
+#Date: 20180527
 #It should be under the following diretory: /etc/profile.d
 #Besides, for Ubuntu, we should append following statements to .bashrc under user home directory:
 #if [[ -f /etc/profile.d/brown-bash-config.sh ]]; then
