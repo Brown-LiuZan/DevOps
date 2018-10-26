@@ -1,4 +1,7 @@
 Programmer's websites:
+    Info sites:
+        https://fileinfo.com #The File Extensions Database
+
     Open source image sites:
         http://mirrors.163.com/
         https://mirrors.tuna.tsinghua.edu.cn/
