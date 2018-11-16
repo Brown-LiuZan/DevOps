@@ -1,0 +1,6 @@
+Generate key files:
+->ssh-keygen
+Copy public key to remote SSH server:
+->ssh-copy-id User@RemoteSshServer
+or, if ERROR no identifies found reported.
+->ssh-copy-id -i .ssh/id_rsa.pub User@RemoteSshServer
