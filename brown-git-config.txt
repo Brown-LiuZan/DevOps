@@ -1,0 +1,4 @@
+How to add a git repositary as a submodule of another repositary:
+    git submodule add ${GitUri} ${SubmoduleDirectory}
+
+

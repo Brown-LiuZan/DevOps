@@ -70,7 +70,7 @@ Steps:
 
 Libraries have been installed in:
    /usr/local/gcc-5.5.0/lib/../lib64
-
+-
 #If you ever happen to want to link against installed libraries
 #in a given directory, LIBDIR, you must either use libtool, and
 #specify the full pathname of the library, or use the `-LLIBDIR'
@@ -86,4 +86,10 @@ Libraries have been installed in:
 #more information, such as the ld(1) and ld.so(8) manual pages.
 
 7) setup symblinks to gcc
+    cd /usr/bin
     ln -s /usr/local/gcc-x.y.z/bin/brown-gcc-x.y.z brown-gcc-x.y.z
+
+8) update symlink /usr/lib64/libstdc++.so.6 to the newest version
+    strings /usr/lib64/libstdc++.so.6
+    cd /usr/lib64
+    ln -s /usr/local/gcc-x.y.z/lib64/libstdc++.so.6.x.y libstdc++.so.6
