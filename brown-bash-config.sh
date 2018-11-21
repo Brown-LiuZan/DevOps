@@ -12,7 +12,7 @@
 #Modify command promote format
 ip=$(ip addr | grep inet | grep brd | grep 'scope global')
 ip=${ip#*inet }
-ip=${ip%%/24*}
+ip=${ip%%/*}
 if [[ -n $PS1 ]]; then
     #Non-printable sequences should be enclosed in \[ and \].
     if [[ $UID -eq 0 ]]; then
