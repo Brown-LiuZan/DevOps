@@ -32,3 +32,10 @@ if [[ ! -x $BASH_CENTOS ]]; then
         echo 'Warning: unrecognized Linux distribution and failed to setup /usr/bin/bash' >&2
     fi
 fi
+
+ulimit -c unlimited
+
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -a --color=auto'
+

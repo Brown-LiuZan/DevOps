@@ -1,0 +1,2 @@
+Check what processes are accessing which directories:
+    lsof +D ${PathName}
