@@ -1,0 +1,9 @@
+Install netstat:
+    sudo yum install net-tools
+    sudo apt install net-tools
+Check out which process is using a special port:
+    sudo netstat -ltnp | grep ${PORTID}
+    # -l, only show listening sockets
+    # -t, dispaly tcp connections
+    # -n, show numerical addresses
+    # -p, show process ID and name
