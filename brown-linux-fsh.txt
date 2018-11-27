@@ -1,0 +1,6 @@
+/sys/block/
+    Information of block devices, such as hdd or sdd:
+        /sys/block/*/queue/rotational #1, HDD; 0, SDD
+        /sys/block/hdb/queue/rotational #1, HDD
+        /sys/block/nvme3n1/queue/rotational #0, SDD
+
