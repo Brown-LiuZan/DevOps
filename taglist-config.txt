@@ -1,0 +1,18 @@
+Get source code:
+    #wget https://sourceforge.net/projects/vim-taglist/files/vim-taglist/x.y/taglist_xy.zip
+    wget https://sourceforge.net/projects/vim-taglist/files/vim-taglist/4.6/taglist_46.zip
+
+How to install:
+    #unzip taglist_xy.zip -d taglist
+    unzip taglist_46.zip -d taglist
+    #cp taglist/doc/taglist.txt /usr/share/vim/vim??/doc
+    cp taglist/doc/taglist.txt /usr/share/vim/vim81/doc
+    #cp taglist/plugin/taglist.vim /usr/share/vim/vim??/plugin
+    cp taglist/plugin/taglist.vim /usr/share/vim/vim81/plugin
+
+How to usage it:
+    cd ${TARGET_PROJECT_DIR}
+    ctags -R or update-tags.sh
+    vim ${AnySupporttedSourceCodeFile}
+    :TlistOpen #Start taglist facility
+    :TlistClose #End taglist facility
