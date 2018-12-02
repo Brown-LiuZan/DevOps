@@ -1,0 +1,32 @@
+Repository of CentOS .src.rpm files:
+    http://vault.centos.org/
+    http://vault.centos.org/7.5.1804/os/Source/SPackages/kernel-3.10.0-862.el7.src.rpm
+    http://vault.centos.org/7.5.1804/os/Source/SPackages/glibc-2.17-222.el7.src.rpm
+    http://vault.centos.org/7.5.1804/os/Source/SPackages/libaio-0.3.109-13.el7.src.rpm
+    http://vault.centos.org/7.5.1804/os/Source/SPackages/libevent-2.0.21-4.el7.src.rpm
+    http://vault.centos.org/7.5.1804/virt/Source/kubernetes110/kubernetes-1.10.3-0.el7.src.rpm
+    http://vault.centos.org/7.5.1804/virt/Source/libvirt-latest/libvirt-4.3.0-1.el7.src.rpm
+    http://vault.centos.org/7.5.1804/virt/Source/libvirt-latest/libvirt-python-4.3.0-1.el7.src.rpm
+
+Install source code files of packages:
+    cd ${LZDWLD}
+    rpm -ihv kernel-3.10.0-862.el7.src.rpm #May create ${LZHOME}/rpmbuild
+    cd ../rpmbuild/SPECS
+    rpmbuild -bp kernel.spec #Extract source code files from SOURCES into BUILD
+
+How to install rpmbuild:
+    yum install xmlto
+    yum install asciidoc
+    yum install hmaccalc
+    yum install python-devel
+    yum install pesign
+    yum install elfutils-devel
+    yum install binutils-devel
+    yum install bison
+    yum install audit-libs-devel
+    yum install java-devel
+    yum install numactl-devel
+    yum install pciutils-devel
+    yum install newt-devel
+    yum install perl-ExtUtils-Embed
+    yum intall rpm-build
