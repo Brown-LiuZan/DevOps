@@ -16,9 +16,9 @@ ip=${ip%%/*}
 if [[ -n $PS1 ]]; then
     #Non-printable sequences should be enclosed in \[ and \].
     if [[ $UID -eq 0 ]]; then
-        PS1="\[\e[1;31m\][\\u@${ip} \\t \\w]\\n\\$ \[\e[m\]"
+        PS1="\\n\[\e[1;31m\][\\u@${ip} \\t \\w]\\n\\$ \[\e[m\]"
     else
-        PS1="\[\e[1;36m\][\\u@${ip} \\t \\w]\\n\\$ \[\e[m\]"
+        PS1="\\n\[\e[1;36m\][\\u@${ip} \\t \\w]\\n\\$ \[\e[m\]"
     fi
 fi
 
