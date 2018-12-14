@@ -49,8 +49,10 @@ export DEVOPS="${LZGIT}/DevOps-LiuZan"
 export SHROOT="${LZGIT}/Bash-Studio-LiuZan"
 export PYROOT="${LZGIT}/Python-Studio-LiuZan"
 export CXXROOT="${LZGIT}/Cpp-Studio-LiuZan"
+export CXXBUILD="${CXXROOT}/Build"
 export GLROOT="${LZGIT}/Go-Studio-LiuZan"
-export PATH=${PATH}:${LZBIN}
+PATH=${PATH}:${LZBIN}
+export PATH=${PATH}:/usr/local/go/bin
 
 alias lzhome="cd ${LZHOME}"
 alias lzbin="cd ${LZBIN}"

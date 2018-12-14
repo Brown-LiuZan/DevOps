@@ -1,0 +1,474 @@
+ChunkServerInfos:
+
+================================================================================
+Information of Chunk Server 0
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 490443302D4ACDA1C848593F3391C5D0                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs3a07014.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 3                                               
+ServiceUri                   := tcp://10.101.195.206:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,797,934,886,912 Bytes                         
+FreePercentage               := 95.00%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,797,934,886,912 Bytes                         
+FreePercentage               := 95.00%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,898,894,729,216 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,899,040,157,696 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 1
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 5F516740DC45669EC248E2A6DA35D673                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs3a01019.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 3                                               
+ServiceUri                   := tcp://10.101.194.211:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := -1 Heartbeats                                   
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,937,603,026,944 Bytes                         
+FreePercentage               := 98.50%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,937,603,026,944 Bytes                         
+FreePercentage               := 98.50%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,968,801,513,472 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,968,801,513,472 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 2
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 67F89E435563D6A1E54096827DD24B6D                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs7c06024.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 7                                               
+ServiceUri                   := tcp://10.101.223.88:10280                       
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,849,360,289,792 Bytes                         
+FreePercentage               := 96.30%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,849,360,289,792 Bytes                         
+FreePercentage               := 96.30%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,924,671,418,368 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,924,688,871,424 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 3
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 6D1DC40A179660A4D7466263A540DE98                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs7c07029.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 7                                               
+ServiceUri                   := tcp://10.101.223.157:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,849,523,560,448 Bytes                         
+FreePercentage               := 96.30%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,849,523,560,448 Bytes                         
+FreePercentage               := 96.30%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,924,897,890,304 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,924,625,670,144 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 4
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 89E8192E6285EF835449220E954F96B6                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs7c04044.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 7                                               
+ServiceUri                   := tcp://10.101.223.44:10280                       
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,850,444,857,344 Bytes                         
+FreePercentage               := 96.30%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,850,444,857,344 Bytes                         
+FreePercentage               := 96.30%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,925,125,730,304 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,925,319,127,040 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 5
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := 8F5C18954091D1AD91494E759E9997B9                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs3a07016.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 3                                               
+ServiceUri                   := tcp://10.101.195.208:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,813,598,859,264 Bytes                         
+FreePercentage               := 95.40%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,813,598,859,264 Bytes                         
+FreePercentage               := 95.40%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,906,676,244,480 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,906,922,614,784 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 6
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := C2352C44A769549D85472C0ADE3AC8A7                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs3a07003.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 3                                               
+ServiceUri                   := tcp://10.101.195.195:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := 0 Heartbeats                                    
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,837,193,195,520 Bytes                         
+FreePercentage               := 96.00%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,837,193,195,520 Bytes                         
+FreePercentage               := 96.00%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,918,498,340,864 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,918,694,854,656 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
+================================================================================
+Information of Chunk Server 7
+================================================================================
+                                                               Basic Information
+--------------------------------------------------------------------------------
+ChunkServerUUID              := F23EB63EE25C4EB5BE4F13B2AD17A737                
+ChunkServerIndex             := 0                                               
+MachineName                  := rs3a07002.et2sqa                                
+TopoLevelType                := TOPO_PSW                                        
+TopoLevelId                  := 2                                               
+TopoLevelType                := TOPO_ZONE                                       
+TopoLevelId                  := 3                                               
+ServiceUri                   := tcp://10.101.195.194:10280                      
+WorkingStatus                := DISCONNECTED                                    
+ProxyStatus                  := STOPPED                                         
+BackupStatus                 := IGNORE                                          
+TimeToLive                   := -1 Heartbeats                                   
+SniffLoop                    := 0                                               
+                                                        Storagy Summary By Types
+--------------------------------------------------------------------------------
+StorageType                  := SSD                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,937,605,148,672 Bytes                         
+FreePercentage               := 98.50%                                          
+StorageType                  := ANY                                             
+StorageTotalSpace            := 3,996,963,389,440 Bytes                         
+StorageFreeSpace             := 3,937,605,148,672 Bytes                         
+FreePercentage               := 98.50%                                          
+                                                               Summary of Disk 0
+--------------------------------------------------------------------------------
+DiskId                       := a                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,968,802,574,336 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+                                                               Summary of Disk 1
+--------------------------------------------------------------------------------
+DiskId                       := b                                               
+DiskType                     := SSD                                             
+DiskStatus                   := DISK_OK                                         
+DiskIOQueueMaxDepth          := 0                                               
+DiskFlagSet                  := 0                                               
+DiskCapacity                 := 1,998,481,694,720 Bytes                         
+DiskFreeSpace                := 1,968,802,574,336 Bytes                         
+UserReservedSpace            := 0 Bytes                                         
+UserUsedSpace                := 0 Bytes                                         
+ChunkDataUsedSpace           := 4,048 Bytes                                     
+TempChunkDataUsedSpace       := 0 Bytes                                         
+NumberOfChunks               := 0                                               
+NumberOfTempChunks           := 0                                               
+
