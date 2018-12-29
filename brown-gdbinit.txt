@@ -1,0 +1,6 @@
+To make gdb to print pretty container:
+    Download python parser:
+        svn co svn://gcc.gnu.org/svn/gcc/trunk/libstdc++-v3/python
+        Or use std-python.tar here.
+    Copy brown-gdbinit to ~/.gdbinit. If you do this after gdb started, source
+    this file.
