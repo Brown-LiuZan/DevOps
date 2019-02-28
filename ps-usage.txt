@@ -1,0 +1,11 @@
+ps: 打印系统进程快照信息
+
+用法一：显示所有作业的树形结构
+    ps -ejH
+
+用法二：显示应用程序${AppBinaryName}的进程信息
+    ps -C ${AppBinaryName} -o pid,start,etime,wchan,cmd
+
+用法三：显示给定进程${PID}的信息
+    ps -o pid,nlwp,pcpu,etime,start[lstart],pmem,rss,stat,wchan,cmd [-p] PID
+    
