@@ -1,0 +1,6 @@
+仅显示两个commit间有哪些文件有变化：
+    git diff --name-only ${CommitOlder} ${CommitNewer}
+    git diff --name-only HEAD~N HEAD~M  #N < M
+
+查看commit的log消息及diff：
+    git show ${CommitId}
