@@ -1,2 +1,13 @@
-将数值时间转换为日志时间：
-    date -d @TimeValueInSeconds #如果时间单位为微妙，则需去掉后面6个数字
+将自1970-01-01-00:00:00起的秒计数值转换为日历时间：
+    date -d @ElapsedSecondsFromEpoch #如果时间单位为微妙，则需去掉后面6个数字
+    date -f ${FileOfTimeRecords} 
+
+以默认格式显示当前时间：
+    date
+    date -u  //显示UTC时间
+
+以指定格式显示时间：
+    date +${FormatString}
+    date +%s  //显示自历元时刻起的秒计数
+    date +%Y%m%d-%H:%M:%S //20190315-19:00:41
+    
