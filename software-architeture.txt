@@ -1,0 +1,123 @@
+架构师职责：
+    从概念完整性角度叫，架构师要尽力保证系统整体视图的稳定。
+    降低并控制系统复杂度，使其具备良好的质量特性。
+
+架构的利益相关方：
+    业务经理
+    子系统负责人
+    用户
+    运维人员
+
+复杂性管理：
+    为了降低系统复杂度，架构师通常以不同的架构视图追踪不同利益相关方的需求。比如
+    用“4+1架构视图模型”。分类视图。
+
+架构驱动力：
+    系统功能及数据流驱动（经典杰克逊结构化编程Jackson Structured Programming)
+    产品质量驱动（Quality-Driven), 质量特性（Quality Attributes）包括:
+        运行时质量特性（运行时非功能性需求Runtime Non-Funtional Requirements）：
+            容错能力（fault-tolerance, reliability）
+            性能（Performance Efficiency）
+            向后兼容性（backward compatibility）
+            可用性（Availability）
+            控黑能力（Security）
+            可运维性（Operability）
+            易用性（Usability）
+        开发时质量特性（开发时非功能需求Development-time Non-Funtional
+        Requirements):
+            可维护性（Maintaainability）
+            可扩展性（Extensibility）
+            可读性（Readability）
+            可交接性（Transferability）
+
+软件系统需求：
+    功能需求（概念完整性Conceptual Integrity）: 功能与行为
+    质量需求：运行时需求、开发时需求
+
+认知局限（Cognitive Constraints):
+    康维定律（Melvin Convey's Law）：系统设计倾向于反映系统的通信结构。
+
+什么是软件架构：
+    软件架构是复杂系统的抽象模型。
+    用途：
+        系统实现出来之前，分析系统行为是否满足各方需求的基础。
+        具备相似功能及质量特性的系统，可以复用系统组成及其决策逻辑。
+        有助于对影响开发、部署及维护的问题尽早做出决策，从而有助于降低计划及预算
+        风险。
+        方便各方进行沟通，并在相对容易做出调整的时候调整需求。
+        风险管理（Risk Management）：帮助降低失败的概率及风险。
+        成本管理（Cost Reduction）
+
+软件架构设计的四个主要工作：
+    架构级分析（Architectural Analysis）:
+        理解系统的运行环境并确定系统需求。包括：
+            功能需求：系统运行过程中要做、能做什么事。
+            运行时非功能需求：可靠性、可运维性、性能、抗黑性、兼容性
+            开发时非功能需求：可维护性、可交接性
+            系统的业务需求及运行环境：它们可能受法律、社会、财务、竞争、技术等因
+            素驱动而随时间发生变化。
+        该阶段要搞清楚可能对架构产生影响的需求，并输出架构级需求。
+    架构设计（Architectural Synthesis/Design）：
+        依据分析产生的架构级需求及架构评估的反馈，设计并改进软件架构。
+    架构评估（Architecture Evaluation）：
+        考察软件架构能否很好地满足需求。
+    架构演进（Architecture Evolution）：
+        维护并调整已有的软件架构以适应新出现的需求或运行环境。
+        三项核心活动：
+            知识管理与沟通（Knowledge Management and Communication）：
+                管理及探索设计软件架构必不可少的知识。架构师并非单兵作战，他/她
+                需要从各方收集功能需求、非功能需求、系统运行场景等，并将它们反馈
+                给各方。软件架构的知识常常在各利益相关方脑子了，软件架构知识管理
+                就是要找出、沟通并记录下这些知识。进行设计考量时，往往会因为需求
+                不完整而产出错误的软件架构设计。知识管理与沟通包括如下活动：
+                    搜寻已有的设计模式
+                    原型验证（Prototyping；POC, Proven of Concept）
+                    咨询经验丰富的开发人员及架构师
+                    评估相似系统的设计
+                    与其它设计人员及利益相关方分享知识
+                    将相关经验及知识归档到Wiki。
+            设计评估及决策（Design Reasoning and Decision Making）：
+                评估设计并作出决策，这是三项核心软件架构活动的基础工作。
+                它包括：
+                    收集并明确决策背景。
+                    描述设计决策的目标问题。
+                    在决策前形成备选解决方案并评估它们的优劣。
+                它可能发生在架构需求分析、设计及评估不同阶段及决策层次。
+                评估的具体活动包括：
+                    理解特定需求或设计对质量特性的影响
+                    搞清楚设计会不会导致其它问题
+                    评估可能的解决方案
+                    评估各方案的折中方案
+            文档化（Documentation）：
+                记录软件架构过程产生的设计。
+                系统设计经常用如下几种视图描述：
+                    反映系统代码结构的静态视图。
+                    展示系统运行过程的动态视图。
+                    展示系统被如何部署到硬件上去执行的部署视图。
+                    Kruchten的“4+1架构视图模型”适用于该项工作。
+                文档化工作包括：
+                    写规格书
+                    记录系统设计模型
+                    文档化设计原理
+                    开发视点
+                    文档化视图
+架构风格及模式：
+    给定场景里软件架构工作常面临一些常见的问题，对于这些问题经过历时沉淀，有一些
+    通用且可复用的解决方案，它们被称为架构模式或软件设计模式：
+        黑板（Blackboard）
+        客户端+服务端（Client-Server，2-tier, 3-tier, n-tier, cloud computing）
+        组件化（Component-Based)
+        数据中心（Data-Centric)
+        事件驱动/隐士调用（Event-Driver/Implicit Invocation）
+        分层/多层架构（Layered/Multilayered Architecture）
+        微服务架构（Microservices Architecture）
+        单体应用（Monolithic Application）
+        端到端（P2P，Peer-To-Peer）
+        管道与过滤器（Pipes and Filters)
+        插件（Plug-ins）
+        表达性状态传输（REST, Representational State Transfer）
+        规则化（Rule-Based）
+        面向服务（Service-Oriented）
+        无共享架构（Shared Nothing Architecture）
+        空间化架构（Space-based Architecture）
+        Broker Pattern

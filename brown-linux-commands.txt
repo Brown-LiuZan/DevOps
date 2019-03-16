@@ -1,0 +1,19 @@
+Account related:
+    getent passwd brown  # user name
+    getent passwd 1000  # pid
+    getent group users  # group name
+    getent group 100  # group id
+    id brown # uid=1000(brown) gid=100(users) groups=100(users),981(docker)
+    usermod -aG docker brown  # append supplementary groups of user
+    usermod -c Brown.LiuZan brown  # set comment field of passwd file of user
+    usermod -d /home/brown brown  # set home directory field of passwd of user
+    usermod -e 2099-09-09 brown  # set the expried date of user
+    usermod -f 7 brown  # give more 7 days to expired user
+    usermod -g users brown  # set the group field of passwd file of user
+    usermod -G users,docker brown  # set the supplementary group field of passwd
+        # file of user
+    usermod -l liuzan brown  # change the user field, login name, of passwd of user
+    usermod -md /home/new-home-dir brown  # move home directory or do nothing
+
+Filesystem permission related:
+
