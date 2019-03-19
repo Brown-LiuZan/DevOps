@@ -8,3 +8,6 @@
 
 查看commit的log消息及diff：
     git show ${CommitId}
+
+查看指定文件的修改历史，包括log和patch：
+    git log -p ${FileName}
