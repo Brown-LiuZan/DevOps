@@ -1,0 +1,12 @@
+通知特定进程终止：
+    kill ${PID}
+
+暴力杀掉特定进程：
+    kill -9 ${PID}
+
+通知特定bianry的所有进程终止运行：
+    killall ${AppBinaryName}
+    //${AppBinaryName}必须是全名，不可以截断
+
+暴力杀掉特定binary的所有进程：
+    killall -9 ${AppBinaryName}
