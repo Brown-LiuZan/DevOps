@@ -1,0 +1,31 @@
+# A crontab file consists of commands, one command per line, that execute
+# automatically at the time specified by the first five fields of each command
+# line.
+#
+# Fields:
+#     <Minute[0-59]> <Hour[0-23]> <DayOfMonth[1-31]> <Month[1-12]|[Jan-Dec]>
+#     <DayOfWeek[0-6]|[Sun-Mon]>
+#
+# Usage guidlines:
+#     Use a space to separate each field.
+#     Use a comma to separate multiple values.
+#     Use a hyphen to designate a range of values.
+#     Use an asterisk as a wildcard to include all possible values.
+#     Use a comment mark (#) at the beginning of a line to indicate a comment or
+#     a blank line.
+#     Use 1-12/2 or */2 to achieve 1,3,5,7,9,11
+# It seams that crontab doesn't support `date +FormatString`. However, the
+# default `date` is OK.
+# Min           Hour            Day             Month           DayOfWeek       Cmd
+# updatedb need root privilege
+# sudo crontab -u root ${ThisFile} # Load this file as root configuration.
+# sudo crontab -e # Edit root's config.
+# sudo crontab -l # Show root's config.
+# */5             *               *               *               Sat,Sun         updatedb
+# crontab -u brown ${ThisFile} # Load this file as brown configuration.
+# crontab -e # Edit brown's config.
+# crontab -l # Show brown's config.
+# 0,20,40         *               *               *               Sat,Sun         echo "`date`: test" > ~/cron-test-echo.txt
+# 01,30,50        *               *               *               Sat,Sun         rm -f cron-test-echo.txt
+# test it with: i=0; while true; do i=$((i + 1)); echo "===elapsed $i minutes==="; echo "ls: `ls | grep cron-test-echo.txt`"; echo "locate: `locate cron-test-echo.txt`"; echo; sleep 60; done
+30              12              */2             1,3-12          *               updatedb
