@@ -1,0 +1,75 @@
+如何确认具体core在函数的那条指令：
+    反汇编该函数，gdb会标识出执行那条指令出错。
+    具体指令：
+        (gdb)disassemble 0x00007f613cdf2f2e
+        其中0x00007f613cdf2f2e是函数的入口地址，backtrace指令会打印栈中每一个函数
+        的入口地址。
+	示例：
+		(gdb) set disassemble-flavor intel    #默认GNU格式，该指令改为intel格式
+		(gdb) disassemble 0x00007f613cdf2f2e
+		Dump of assembler code for function arpc::KRPCReply::GetMessage(int):
+		   0x00007f613cdf2f20 <+0>:	push   r12
+		   0x00007f613cdf2f22 <+2>:	push   rbp
+		   0x00007f613cdf2f23 <+3>:	push   rbx
+		   0x00007f613cdf2f24 <+4>:	mov    rbx,rdi
+		   0x00007f613cdf2f27 <+7>:	sub    rsp,0x20
+		   0x00007f613cdf2f2b <+11>:	mov    rax,QWORD PTR [rdi]
+		=> 0x00007f613cdf2f2e <+14>:	mov    rax,QWORD PTR [rax+0x10]
+		   0x00007f613cdf2f32 <+18>:	cmp    rax,QWORD PTR [rip+0x2376ef]        # 0x7f613d02a628
+
+如何漂亮地显示C++对象：
+    注册C++标准库的printer，具体方法见brown-gdbinit.txt
+	(gdb) set print pretty on
+    
+如何用gdb分析core：
+    $gdb appbinary corefile
+
+如何用gdb调试运行中的进程：
+    $gdb appbinary PID
+
+如何查看程序启动后的PID：
+    $ps -C AppName
+
+如何打印进程的栈，但不影响进程的运行：
+    $pstack PID
+
+如何用gdb运行程序：
+    $gdb
+    $(gdb)file appbinary
+    $(gdb)设置断点及观察点
+    $(gdb)run Arguments
+
+如何查看寄存器状态：
+    $(gdb)info registers
+
+如何查看断点状体：
+    $(gdb)info break
+
+如何在源代码级逐句运行程序：
+    $(gdb)next
+
+如何在指令级逐句运行程序：
+    $(gdb)step
+
+如何重新运行程序：
+    $(gdb)run
+    通常我们在调试过程中，想要加上一些新的断点，想要让它们生效，需要重新运行。
+
+如何设置断点：
+    指定在文件的某行：
+        $(gdb)break FilePath:LineNum
+        FilePath要么是绝对路径，要么是相对建appbinary时app根目录的相对路径。
+   指定某个类的某个方法：
+        $(gdb)brown ClassName::MethodName
+
+如何在gdb中打印backtrace:
+    $(gdb)backtrace
+    $(gdb)bt
+
+如何打印当前所有线程的栈：
+    $(gdb)set logging on
+    $(gdb)set pagination off  #避免进程内线程超多时，打印一点又要enter一下
+    $(gdb)thread info apply all
+
+如何查看进程内所有线程的摘要(线程结构体地址，LWP，当前栈底）：
+    $(gdb)info thread
