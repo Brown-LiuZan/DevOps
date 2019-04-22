@@ -4,6 +4,7 @@ Account related:
     getent group users  # group name
     getent group 100  # group id
     id brown # uid=1000(brown) gid=100(users) groups=100(users),981(docker)
+    sudo lid brown # show suplyementary groups
     usermod -aG docker brown  # append supplementary groups of user
     usermod -c Brown.LiuZan brown  # set comment field of passwd file of user
     usermod -d /home/brown brown  # set home directory field of passwd of user
@@ -16,4 +17,5 @@ Account related:
     usermod -md /home/new-home-dir brown  # move home directory or do nothing
 
 Filesystem permission related:
-
+    chmod g+w $FilePath
+    chown User:Group $FilePath
