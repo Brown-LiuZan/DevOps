@@ -30,3 +30,11 @@ How to install rpmbuild:
     yum install newt-devel
     yum install perl-ExtUtils-Embed
     yum intall rpm-build
+
+Shared library search path setup:
+    whereis lib???.so.? #/usr/lib64/xxx/lib???.so.?
+    echo "/usr/lib64/xxx" >> /etc/ld.so.conf
+    cat /etc/ld.so.conf
+        #include /etc/ld.so.conf.d/*.conf
+        #/usr/lib64/xxx
+    ldconfig #enable new config
