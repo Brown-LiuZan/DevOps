@@ -1,0 +1,6 @@
+kernel-src-install-on-ubuntu:
+	1) sudo apt-get install git
+	2) git clone git://kernel.ubuntu.com/ubuntu/ubuntu-$(lsb_release --codename | cut -f2).git
+
+kernel-src-install-on-centos:
+
