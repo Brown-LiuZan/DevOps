@@ -40,6 +40,8 @@ Steps:
     #tar -xjf gcc-*.bz2
     cd gcc-x.y.z
     ./contrib/download_prerequisites  #Download gmp, mpfr, mpc and isl into the toplevel dir of GCC source code
+    #You could download these packages from ftp://gcc.gnu.org/pub/gcc/infrastructure/
+    #Or: https://mirrors.tuna.tsinghua.edu.cn/gnu/
     
 3) configure gcc before build
     mkdir /usr/local/gcc-7.3.0
