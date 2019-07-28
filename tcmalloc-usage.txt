@@ -1,0 +1,6 @@
+Install on ubuntu:
+	sudo apt-get install google-perftools
+	find /usr -name libtcmalloc -type f
+
+Install source code:
+	apt-get source google-perftools
