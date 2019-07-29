@@ -7,7 +7,7 @@ Steps:
     yum install gcc-c++ #Install g++ if not installed.
     gcc --verion //cc --version
     awk --version
-    yum list binutils
+    yum list binutils | apt list binutils
     gzip --version
     bzip2 --version
     make --version
@@ -18,18 +18,18 @@ Steps:
     automake --version
     gettext --verion
     gperf --version
-    yum list dejagnu
+    yum list dejagnu | apt list dejagnu
     tcl --version
     autogen --version
     guile --version
     flex --version
     texinfo --version
     tex --version
-    yum list diffutils
+    yum list diffutils | apt list diffutils
     ssh --version
     patch --version
     yum install expect
-    
+
 2) download gcc tarball from fastest mirror site
     cd $HOME/Downloads
     wget https://mirrors.tuna.tsinghua.edu.cn/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz
@@ -42,7 +42,7 @@ Steps:
     ./contrib/download_prerequisites  #Download gmp, mpfr, mpc and isl into the toplevel dir of GCC source code
     #You could download these packages from ftp://gcc.gnu.org/pub/gcc/infrastructure/
     #Or: https://mirrors.tuna.tsinghua.edu.cn/gnu/
-    
+
 3) configure gcc before build
     mkdir /usr/local/gcc-7.3.0
     #mkdir /usr/local/gcc-6.4.0
@@ -59,7 +59,7 @@ Steps:
 4) build
     cd /usr/local/gcc-x.y.z/objdir
     make -j N #N is the number of CPU cores in your system.
-    
+
 5) testing [optinal]
     whereis expect #Check if 'expect' has installed into one of standard $PATH directories.
     whereis runtest
