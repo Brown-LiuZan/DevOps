@@ -5,7 +5,7 @@
 #Besides, for Ubuntu, we should append following statements to .bashrc under user home directory:
 #if [[ -f /etc/profile.d/brown-bash-config.sh ]]; then
 #    . /etc/profile.d/brown-bash-config.sh
-#fi 
+#fi
 
 
 #Brown's special settings of bash.
@@ -45,7 +45,7 @@ export LZBIN="${LZHOME}/Bin"
 export LZBAK="${LZHOME}/Backups"
 export LZDWLD="${LZHOME}/Downloads"
 export LZGIT="${LZHOME}/GitHub"
-export DEVOPS="${LZGIT}/DevOps-LiuZan"
+export DEVOPS="${LZGIT}/DevOps-Studio-LiuZan"
 export SHROOT="${LZGIT}/Bash-Studio-LiuZan"
 export PYROOT="${LZGIT}/Python-Studio-LiuZan"
 export CXXROOT="${LZGIT}/Cpp-Studio-LiuZan"
