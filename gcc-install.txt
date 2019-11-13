@@ -59,7 +59,7 @@ Steps:
     /home/brown/Downloads/gcc-6.5.0/configure --prefix=/usr/local/gcc-6.5.0 --program-prefix=brown- --program-suffix=-6.5.0 --disable-multilib --enable-languages=c,c++
     /home/brown/Downloads/gcc-7.4.0/configure --prefix=/usr/local/gcc-7.4.0 --program-prefix=brown- --program-suffix=-7.4.0 --disable-multilib --enable-languages=c,c++
     /home/brown/Downloads/gcc-8.3.0/configure --prefix=/usr/local/gcc-8.3.0 --program-prefix=brown- --program-suffix=-8.3.0 --disable-multilib --enable-languages=c,c++
-    /home/brown/Downloads/gcc-9.1.0/configure --prefix=/usr/local/gcc-9.1.0 --program-prefix=brown- --program-suffix=-9.1.0 --disable-multilib --enable-languages=c,c++
+    /home/brown/Downloads/gcc-9.2.0/configure --prefix=/usr/local/gcc-9.2.0 --program-prefix=brown- --program-suffix=-9.2.0 --disable-multilib --enable-languages=c,c++
 4) build
     cd /usr/local/gcc-x.y.z/objdir
     make -j N #N is the number of CPU cores in your system.
