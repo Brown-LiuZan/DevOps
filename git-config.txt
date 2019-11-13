@@ -1,5 +1,11 @@
 How to add a git repositary as a submodule of another repositary:
     git submodule add ${GitUri} ${SubmoduleDirectory}
 
-How to reset a single file to a hitory state?
+How to get source tree of module
+    git submodule update --init ${SubmoduleDirectory}
+
+How to list submodules under current repository:
+    git submodule status
+
+How to reset a single file to a hitory state:
     git checkout <CommitId|HEAD~N> -- ${FilePath}
