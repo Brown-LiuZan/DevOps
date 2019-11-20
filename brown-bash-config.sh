@@ -33,9 +33,14 @@ if [[ ! -x $BASH_CENTOS ]]; then
     fi
 fi
 
+#Make sure font display correctness
+export LANG="zh_CN.utf8"
+export LC_ALL="en_US.utf8"
+
+#Enable coredumpe
 ulimit -c unlimited
 
-# File system travel.
+#File system travel.
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
