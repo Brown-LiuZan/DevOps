@@ -1,0 +1,10 @@
+How to check current settings:
+    ->locale
+    ->echo ${LANG}
+    ->echo ${LC_ALL}
+
+Key environment variables:
+    LANG
+    LC_ALL
+
+
