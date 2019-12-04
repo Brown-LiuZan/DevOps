@@ -20,7 +20,7 @@
 如何漂亮地显示C++对象：
     注册C++标准库的printer，具体方法见brown-gdbinit.txt
 	(gdb) set print pretty on
-    
+
 如何用gdb分析core：
     $gdb appbinary corefile
 
@@ -73,3 +73,6 @@
 
 如何查看进程内所有线程的摘要(线程结构体地址，LWP，当前栈底）：
     $(gdb)info thread
+
+glibc调试信息安装：
+    ->debuginfo-install glibc-2.17-196.tl2.3.x86_64 libgcc-4.8.5-4.el7.x86_64
