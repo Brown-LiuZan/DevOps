@@ -11,3 +11,26 @@
 
 查看指定文件的修改历史，包括log和patch：
     git log -p ${FileName}
+
+查看remote源：
+    git remote show [Name]
+
+添加remote源：
+    git remote add <Name> <Url>
+
+重命名remote：
+    git remote rename <OldName> <NewName>
+
+删除remote:
+    git remote remove <Name>
+
+将remote-Src克隆到本地并将其同步到另一个空remote-Dest：
+    git clone <SrcUlr> [Dir]
+    cd <Dir>
+    [git checkout master]
+    git remote rename origin SrcName
+    git remote add <DestName> <DestUrl>
+    git push --set-upstream <DestName> <DestBranch>
+    // 日后某天
+    git pull <SrcName> master
+    git push
