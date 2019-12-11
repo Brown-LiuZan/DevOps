@@ -34,3 +34,16 @@
     // 日后某天
     git pull <SrcName> master
     git push
+
+上传tags到remote：
+    git push --tags <RemoteName>
+
+拉取tags到本地：
+    git fetch --tags
+
+查看tags列表：
+    git tag [-l]
+
+增加tag：
+    git tag <TagName>
+    git tag -a <TagName> -m "annotation of tag"
