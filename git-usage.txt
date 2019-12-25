@@ -58,3 +58,8 @@
 
 设置git-commit的editor:
     git config --global core.editor "vim"
+
+如何对https版本的github仓库进行永久性的认证：
+    git config credential.helper store
+    git push https://github.com/Brown-LiuZan/DevOps-Studio-LiuZan.git
+
