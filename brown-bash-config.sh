@@ -27,7 +27,7 @@ BASH_CENTOS='/usr/bin/bash'
 BASH_UBUNTU='/bin/bash'
 if [[ ! -x $BASH_CENTOS ]]; then
     if [[ -x $BASH_UBUNTU ]]; then
-        ln -s $BASH_UBUNTU $BASH_CENTOS
+        sudo ln -s $BASH_UBUNTU $BASH_CENTOS
     else
         echo 'Warning: unrecognized Linux distribution and failed to setup /usr/bin/bash' >&2
     fi
