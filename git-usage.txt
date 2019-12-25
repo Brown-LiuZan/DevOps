@@ -55,3 +55,6 @@
 删除远程所有tag:
     git push origin -d $(git tag -l) # No branch shoud be given.
     git push origin --delete $(git tag --list)
+
+设置git-commit的editor:
+    git config --global core.editor "vim"
