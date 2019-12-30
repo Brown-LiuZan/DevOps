@@ -45,7 +45,7 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
 
-export LZHOME="/home/brown"
+export LZHOME="/home/ubuntu"
 export LZBIN="${LZHOME}/Bin"
 export LZBAK="${LZHOME}/Backups"
 export LZDWLD="${LZHOME}/Downloads"

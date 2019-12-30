@@ -63,3 +63,13 @@
     git config credential.helper store
     git push https://github.com/Brown-LiuZan/DevOps-Studio-LiuZan.git
 
+断点续传远程库：
+    mkdir Linux-Ubuntu
+    cd Linux-Ubuntu
+    git init
+    git fetch git://kernel.ubuntu.com/ubuntu/linux.git
+    cd ..
+    mkdir Linux-Torvalds
+    cd Linux-Torvalds
+    git init
+    git fetch https://github.com/torvalds/linux.git
