@@ -1,3 +1,7 @@
+#### ubunbu release name determination ####
+# lsb_release -cs
+
+
 #### master package archive ####
 # http://archive.ubuntu.com/ubuntu/
 
