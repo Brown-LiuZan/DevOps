@@ -82,3 +82,7 @@
     # --name-status在文件名前加修改状态（Delete, Modified, Added）
     # --name-only仅显示文件名
     # --no-commit-id抑制commitid的显示
+
+查看两个分支的commit差异
+    git log ${BranchAName} ${BranchBName}
+
