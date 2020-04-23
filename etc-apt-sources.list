@@ -1,12 +1,13 @@
 #### ubunbu release name determination ####
 # lsb_release -cs
+# /etc/apt/sources.list
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 
 
 #### master package archive ####
 # http://archive.ubuntu.com/ubuntu/
 
 #### Ubuntu 20.04 LTS master package archive ####
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 ## focal
 # deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
 # deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
@@ -22,12 +23,16 @@
 
 
 #### Chinese mirrors of Ubuntu package archive ####
+# 清华源
 # https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+# 中科大源
 # http://mirrors.ustc.edu.cn/ubuntu/
+# 腾讯云源
 # http://mirrors.tencentyun.com/ubuntu/
+# 阿里云源
+# http://mirrors.aliyun.com/ubuntu/
 
 #### tuna mirror of Ubuntu 18.04 LTS package arhive ####
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 ## bionic
 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
@@ -177,3 +182,62 @@
 # deb http://mirrors.tencentyun.com/ubuntu/ focal-updates main restricted universe multiverse
 # deb-src http://mirrors.tencentyun.com/ubuntu/ focal-updates main restricted universe multiverse
 
+#### aliyun mirror of Ubuntu 16.04 LTS package archive ####
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+## xenial
+# deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
+## xenial-security
+# deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
+## xenial-backports
+# deb https://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+## xenial-updates
+# deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
+
+#### aliyun mirror of Ubuntu 18.04 LTS package archive ####
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+## bionic
+# deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+## bionic-security
+# deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+## bionic-backports
+# deb https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+## bionic-updates
+# deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+#### aliyun mirror of Ubuntu 19.10 package archive ####
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+## eoan
+# deb http://mirrors.aliyun.com/ubuntu/ eoan main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ eoan main restricted universe multiverse
+## eoan-security
+# deb http://mirrors.aliyun.com/ubuntu/ eoan-security main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ eoan-security main restricted universe multiverse
+## eoan-backports
+# deb https://mirrors.aliyun.com/ubuntu/ eoan-backports main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ eoan-backports main restricted universe multiverse
+## eoan-updates
+# deb http://mirrors.aliyun.com/ubuntu/ eoan-updates main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ eoan-updates main restricted universe multiverse
+
+#### aliyun mirror of Ubuntu 20.04 LTS package archive ####
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+## focal
+# deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+## focal-security
+# deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+## focal-backports
+# deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+## focal-updates
+# deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+# deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
