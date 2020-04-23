@@ -45,11 +45,12 @@ alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
 
-export LZHOME="/home/ubuntu"
+export LZHOME="/home/brown"
 export LZBIN="${LZHOME}/Bin"
 export LZBAK="${LZHOME}/Backups"
 export LZDWLD="${LZHOME}/Downloads"
 export LZGIT="${LZHOME}/GitHub"
+export TOOLCHAIN="${LZGIT}/DevOps-Studio-LiuZan"
 export DEVOPS="${LZGIT}/DevOps-Studio-LiuZan"
 export SHROOT="${LZGIT}/Bash-Studio-LiuZan"
 export PYROOT="${LZGIT}/Python-Studio-LiuZan"
@@ -58,16 +59,20 @@ export CXXBUILD="${CXXROOT}/Build"
 export GLROOT="${LZGIT}/Go-Studio-LiuZan"
 PATH=${PATH}:${LZBIN}
 export PATH=${PATH}:/usr/local/go/bin
+export editor=vim
 
 alias lzhome="cd ${LZHOME}"
 alias lzbin="cd ${LZBIN}"
 alias lzbak="cd ${LZBAK}"
 alias lzdwld="cd ${LZDWLD}"
 alias lzgit="cd ${LZGIT}"
+alias toolchain="cd ${TOOLCHAIN}"
 alias devops="cd ${DEVOPS}"
 alias shroot="cd ${SHROOT}"
 alias pyroot="cd ${PYROOT}"
 alias cxxroot="cd ${CXXROOT}"
 alias cxxbuild="cd ${CXXBUILD}"
 alias glroot="cd ${GLROOT}"
+
+cd ~
 
