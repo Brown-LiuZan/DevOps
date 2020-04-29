@@ -44,13 +44,16 @@ ulimit -c unlimited
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
+alias lla='ls -la --color=auto'
+alias lh='ls -h --color=auto'
 
 export LZHOME="/home/brown"
 export LZBIN="${LZHOME}/Bin"
 export LZBAK="${LZHOME}/Backups"
 export LZDWLD="${LZHOME}/Downloads"
 export LZGIT="${LZHOME}/GitHub"
-export TOOLCHAIN="${LZGIT}/DevOps-Studio-LiuZan"
+export TOOLCHAIN="${LZGIT}/CxxToolChain"
+export CFS="${LZGIT}/CloudFileSystem"
 export DEVOPS="${LZGIT}/DevOps-Studio-LiuZan"
 export SHROOT="${LZGIT}/Bash-Studio-LiuZan"
 export PYROOT="${LZGIT}/Python-Studio-LiuZan"
@@ -67,6 +70,7 @@ alias lzbak="cd ${LZBAK}"
 alias lzdwld="cd ${LZDWLD}"
 alias lzgit="cd ${LZGIT}"
 alias toolchain="cd ${TOOLCHAIN}"
+alias cfs="cd ${CFS}"
 alias devops="cd ${DEVOPS}"
 alias shroot="cd ${SHROOT}"
 alias pyroot="cd ${PYROOT}"
